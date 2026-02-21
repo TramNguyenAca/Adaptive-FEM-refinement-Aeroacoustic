@@ -1,0 +1,5 @@
+# bilevel
+
+This repository demonstrates the validity of the bi-level regularization algorithm in the context of FEM mesh refinement; the accompanying scientific publication is [Aarset, C., Nguyen, T.T.N. (2025). *Bi-level Regularization via Iterative Mesh Refinement for Aeroacoustics*. In: Hasanov Hasanoğlu, A., Novikov, R., Van Bockstal, K. (eds) Inverse Problems: Modelling and Simulation. IPMS 2024. Trends in Mathematics(), vol 11. Birkhäuser, Cham](https://doi.org/10.1007/978-3-031-87213-6_19).
+
+![Image of PDE residual as a function of iteration time, comparing Landweber iteration with single, fine fixed mesh (dotted black line) vs.~bi-level adaptively refined mesh (red line); the shaded blue background is used to visualize the number of times the bi-level algorithm has carried out adaptive mesh refinement.](Graphics/Res001.png)
